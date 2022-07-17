@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="header">
+    <a href="#">
+            <img src="./images/todo+logo.jpg.crdownload" alt="Logo" style="width:250px;">
+          </a>
+   </div> 
+   <div class="header1">
+         <h2 id="date"></h2>
+   </div>
+
+   <div class="header2">
+    <h1>TODO-LIST</h1>
+</div>
+
+           <div class="header3">
+               <input type="text" placeholder="Enter Todo" class="input" id="todo-item">
+               </div>
+
+               <br>
+               <br>
+
+               <div class="header4">
+                <button class="button" onclick="addTodo()">ADD TODO</button>
+                <button class="button" onclick="deleteAll()">DELETE TODO</button>
+               </div>
+           
+            
+            
+           <div class="header5">
+               <ol id="list">
+               </ol>
+           </div>
+        
+       </div>
+   </div>
+
+
+</body>
+<script src="app.js"></script>
+</html>

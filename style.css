@@ -1,0 +1,62 @@
+.header{
+    text-align: center;
+
+}
+
+.header1{
+    text-align: center;
+    color: grey;
+}
+
+.header2{
+    text-align: center;
+    color: rgba(22, 169, 228, 0.89);
+}
+
+.header3{
+    text-align: center;
+    color: rgba(22, 169, 228, 0.89);
+}
+
+input{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(128, 128, 128, 0.582);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+
+.header4{
+    text-align: center;
+}
+
+.button{
+    background-color: rgba(22, 169, 228, 0.89);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+.header5{
+    text-align: center;
+}
