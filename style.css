@@ -1,3 +1,8 @@
+*{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
 .header{
     text-align: center;
 
@@ -59,4 +64,32 @@ input{
 
 .header5{
     text-align: center;
+}
+#todo-list{
+    width: 500px;
+    text-align: center;
+    margin :auto;
+    margin-top: 20px;
+}
+.li{
+   color: white;
+   background-color: grey;
+   border-bottom: 2px solid white;
+   font-size: 20px;
+}
+
+.btn{
+    background-color: rgba(22, 169, 228, 0.89);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 4px;
 }

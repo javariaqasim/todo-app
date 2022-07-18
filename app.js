@@ -8,6 +8,7 @@ function addTodo(){
     var todo_item = document.getElementById("todo-item");
 
     var li =document.createElement('li');
+    li.setAttribute('class', 'li')
     var liText=document.createTextNode(todo_item.value)
     li.appendChild(liText)
 
